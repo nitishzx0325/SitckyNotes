@@ -31,11 +31,12 @@ function createTicket() {
     tempora exercitationem
   </div>
 </div>`;
-  mainCont.appendChild();
+  mainCont.appendChild(ticketCount);
 }
-modal.addEventListener("keydown", function (e) {
+modal.addEventListener("keyup", function (e) {
+  console.log(e.key);
   let p = e.key;
-  if (p === "shift") {
+  if (p == "shift" || p == "Shift") {
     createTicket();
     modal.style.display = "none";
     flag = false;
