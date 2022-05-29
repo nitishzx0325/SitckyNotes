@@ -113,23 +113,34 @@ body {
 .ticket-color {
   height: 1rem;
   width: 100%;
-  background-color: lightpink;
+  /* background-color: lightpink; */
 }
 .ticket-id {
   height: 2rem;
-  width: 100%;
-  background-color;
+  /* width: 100%; */
+  /* background-color; */
   padding: 0.4rem;
 }
 .task-area {
   height: 8rem;
-  background-color: #d2dae2;
+  /* background-color: #d2dae2; */
+  /* padding: 0.4rem; */
   padding: 0.4rem;
+  outline: none;
 }
-.main-cont{
+.main-cont {
   display: flex;
   flex-wrap: wrap;
-  padding:  2rem;
-  gap:2rem;
+  padding: 2rem;
+  gap: 2rem;
   justify-content: center;
+}
+.ticket-lock {
+  height: 2rem;
+  background-color: lightblue;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 1.5rem;
+  padding-right: 1.5rem;
+  color: #182c61;
 }

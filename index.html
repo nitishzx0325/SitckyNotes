@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TO-Do</title>
+    <script src="https://unpkg.com/shortid-dist@1.0.5/dist/shortid-2.2.13.min.js"></script>
+    <!-- <script src="scriptDemo.js"></script> -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
@@ -12,6 +14,13 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    /> -->
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -33,15 +42,14 @@
 
     <!-- Main Container -->
     <div class="main-cont">
-      <!-- <div class="ticket-cont">
-        <div class="ticket-color"></div>
-        <div class="ticket-id">#4232323</div>
-        <div class="task-area">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet
-          obcaecati officia autem ipsam possimus, corrupti ratione adipisci
-          tempora exercitationem
+      <div class="ticket-cont">
+        <div class="ticket-color lightpink"></div>
+        <div class="ticket-id">#sample_id</div>
+        <div class="task-area">Random</div>
+        <div class="ticket-lock">
+          <i class="fa-solid fa-lock"></i>
         </div>
-      </div> -->
+      </div>
     </div>
     <div class="modal-cont">
       <textarea class="textarea-cont" spellcheck="false"></textarea>
